@@ -1,0 +1,449 @@
+[
+ {
+  "column": "total_ghg_excluding_lucf",
+  "label": "Total GHG emissions (excl. land use)",
+  "unit": "MtCO2e",
+  "source": "Our World in Data (Jones et al., based on PRIMAP-hist & GCP)",
+  "source_url": "https://github.com/owid/co2-data",
+  "points": [
+   {
+    "year": 1990,
+    "value": 768.9
+   },
+   {
+    "year": 1991,
+    "value": 811.3
+   },
+   {
+    "year": 1992,
+    "value": 854.5
+   },
+   {
+    "year": 1993,
+    "value": 872.4
+   },
+   {
+    "year": 1994,
+    "value": 912.8
+   },
+   {
+    "year": 1995,
+    "value": 966.8
+   },
+   {
+    "year": 1996,
+    "value": 1034.2
+   },
+   {
+    "year": 1997,
+    "value": 1075.4
+   },
+   {
+    "year": 1998,
+    "value": 1093.3
+   },
+   {
+    "year": 1999,
+    "value": 1183.1
+   },
+   {
+    "year": 2000,
+    "value": 1212.1
+   },
+   {
+    "year": 2001,
+    "value": 1228.6
+   },
+   {
+    "year": 2002,
+    "value": 1263.5
+   },
+   {
+    "year": 2003,
+    "value": 1305.7
+   },
+   {
+    "year": 2004,
+    "value": 1379.0
+   },
+   {
+    "year": 2005,
+    "value": 1445.3
+   },
+   {
+    "year": 2006,
+    "value": 1550.0
+   },
+   {
+    "year": 2007,
+    "value": 1660.1
+   },
+   {
+    "year": 2008,
+    "value": 1768.3
+   },
+   {
+    "year": 2009,
+    "value": 1903.1
+   },
+   {
+    "year": 2010,
+    "value": 1973.8
+   },
+   {
+    "year": 2011,
+    "value": 2072.3
+   },
+   {
+    "year": 2012,
+    "value": 2245.2
+   },
+   {
+    "year": 2013,
+    "value": 2286.3
+   },
+   {
+    "year": 2014,
+    "value": 2449.3
+   },
+   {
+    "year": 2015,
+    "value": 2539.3
+   },
+   {
+    "year": 2016,
+    "value": 2663.6
+   },
+   {
+    "year": 2017,
+    "value": 2741.3
+   },
+   {
+    "year": 2018,
+    "value": 2923.2
+   },
+   {
+    "year": 2019,
+    "value": 2937.5
+   },
+   {
+    "year": 2020,
+    "value": 2742.1
+   },
+   {
+    "year": 2021,
+    "value": 3013.5
+   },
+   {
+    "year": 2022,
+    "value": 3185.3
+   },
+   {
+    "year": 2023,
+    "value": 3432.0
+   },
+   {
+    "year": 2024,
+    "value": 3571.0
+   }
+  ]
+ },
+ {
+  "column": "methane",
+  "label": "Methane (all sectors)",
+  "unit": "MtCO2e",
+  "source": "Our World in Data (Jones et al., based on PRIMAP-hist & GCP)",
+  "source_url": "https://github.com/owid/co2-data",
+  "points": [
+   {
+    "year": 1990,
+    "value": 636.2
+   },
+   {
+    "year": 1991,
+    "value": 643.8
+   },
+   {
+    "year": 1992,
+    "value": 649.0
+   },
+   {
+    "year": 1993,
+    "value": 647.9
+   },
+   {
+    "year": 1994,
+    "value": 653.6
+   },
+   {
+    "year": 1995,
+    "value": 661.9
+   },
+   {
+    "year": 1996,
+    "value": 668.7
+   },
+   {
+    "year": 1997,
+    "value": 676.0
+   },
+   {
+    "year": 1998,
+    "value": 679.6
+   },
+   {
+    "year": 1999,
+    "value": 684.0
+   },
+   {
+    "year": 2000,
+    "value": 685.3
+   },
+   {
+    "year": 2001,
+    "value": 690.0
+   },
+   {
+    "year": 2002,
+    "value": 683.4
+   },
+   {
+    "year": 2003,
+    "value": 695.3
+   },
+   {
+    "year": 2004,
+    "value": 705.4
+   },
+   {
+    "year": 2005,
+    "value": 721.9
+   },
+   {
+    "year": 2006,
+    "value": 733.3
+   },
+   {
+    "year": 2007,
+    "value": 749.8
+   },
+   {
+    "year": 2008,
+    "value": 764.1
+   },
+   {
+    "year": 2009,
+    "value": 762.3
+   },
+   {
+    "year": 2010,
+    "value": 769.3
+   },
+   {
+    "year": 2011,
+    "value": 781.0
+   },
+   {
+    "year": 2012,
+    "value": 783.9
+   },
+   {
+    "year": 2013,
+    "value": 758.2
+   },
+   {
+    "year": 2014,
+    "value": 765.9
+   },
+   {
+    "year": 2015,
+    "value": 773.5
+   },
+   {
+    "year": 2016,
+    "value": 781.6
+   },
+   {
+    "year": 2017,
+    "value": 786.6
+   },
+   {
+    "year": 2018,
+    "value": 800.1
+   },
+   {
+    "year": 2019,
+    "value": 800.2
+   },
+   {
+    "year": 2020,
+    "value": 807.8
+   },
+   {
+    "year": 2021,
+    "value": 821.1
+   },
+   {
+    "year": 2022,
+    "value": 835.7
+   },
+   {
+    "year": 2023,
+    "value": 847.6
+   },
+   {
+    "year": 2024,
+    "value": 859.3
+   }
+  ]
+ },
+ {
+  "column": "nitrous_oxide",
+  "label": "Nitrous oxide (all sectors)",
+  "unit": "MtCO2e",
+  "source": "Our World in Data (Jones et al., based on PRIMAP-hist & GCP)",
+  "source_url": "https://github.com/owid/co2-data",
+  "points": [
+   {
+    "year": 1990,
+    "value": 147.9
+   },
+   {
+    "year": 1991,
+    "value": 152.6
+   },
+   {
+    "year": 1992,
+    "value": 157.0
+   },
+   {
+    "year": 1993,
+    "value": 160.8
+   },
+   {
+    "year": 1994,
+    "value": 166.7
+   },
+   {
+    "year": 1995,
+    "value": 170.2
+   },
+   {
+    "year": 1996,
+    "value": 175.1
+   },
+   {
+    "year": 1997,
+    "value": 179.8
+   },
+   {
+    "year": 1998,
+    "value": 183.6
+   },
+   {
+    "year": 1999,
+    "value": 187.1
+   },
+   {
+    "year": 2000,
+    "value": 183.8
+   },
+   {
+    "year": 2001,
+    "value": 186.6
+   },
+   {
+    "year": 2002,
+    "value": 180.3
+   },
+   {
+    "year": 2003,
+    "value": 186.6
+   },
+   {
+    "year": 2004,
+    "value": 193.1
+   },
+   {
+    "year": 2005,
+    "value": 201.7
+   },
+   {
+    "year": 2006,
+    "value": 211.7
+   },
+   {
+    "year": 2007,
+    "value": 222.5
+   },
+   {
+    "year": 2008,
+    "value": 227.3
+   },
+   {
+    "year": 2009,
+    "value": 233.9
+   },
+   {
+    "year": 2010,
+    "value": 242.1
+   },
+   {
+    "year": 2011,
+    "value": 251.8
+   },
+   {
+    "year": 2012,
+    "value": 254.3
+   },
+   {
+    "year": 2013,
+    "value": 255.6
+   },
+   {
+    "year": 2014,
+    "value": 259.8
+   },
+   {
+    "year": 2015,
+    "value": 263.3
+   },
+   {
+    "year": 2016,
+    "value": 262.3
+   },
+   {
+    "year": 2017,
+    "value": 267.2
+   },
+   {
+    "year": 2018,
+    "value": 275.2
+   },
+   {
+    "year": 2019,
+    "value": 282.6
+   },
+   {
+    "year": 2020,
+    "value": 289.4
+   },
+   {
+    "year": 2021,
+    "value": 290.4
+   },
+   {
+    "year": 2022,
+    "value": 298.3
+   },
+   {
+    "year": 2023,
+    "value": 305.9
+   },
+   {
+    "year": 2024,
+    "value": 310.0
+   }
+  ]
+ }
+]

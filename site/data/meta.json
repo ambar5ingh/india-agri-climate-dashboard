@@ -1,0 +1,19 @@
+{
+ "updated": "2026-10-12T06:56+00:00",
+ "status": {
+  "world_bank_missing": [
+   "AG.LND.IRIG.AG.ZS (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/AG.LND.IRIG.AG.ZS?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))",
+   "ER.H2O.FWAG.ZS (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/ER.H2O.FWAG.ZS?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))",
+   "AG.YLD.CREL.KG (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/AG.YLD.CREL.KG?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))",
+   "AG.LND.AGRI.ZS (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/AG.LND.AGRI.ZS?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))",
+   "NV.AGR.TOTL.ZS (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/NV.AGR.TOTL.ZS?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))",
+   "SL.AGR.EMPL.ZS (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/SL.AGR.EMPL.ZS?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))",
+   "EG.FEC.RNEW.ZS (HTTPSConnectionPool(host='api.worldbank.org', port=443): Max retries exceeded with url: /v2/country/IND/indicator/EG.FEC.RNEW.ZS?format=json&per_page=200 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))))"
+  ],
+  "world_bank": "failed: no World Bank indicators could be fetched",
+  "owid": "ok",
+  "data_gov_in_note": "no resource IDs configured yet",
+  "data_gov_in": "ok",
+  "register": "ok"
+ }
+}

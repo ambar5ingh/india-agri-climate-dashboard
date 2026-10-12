@@ -1,0 +1,92 @@
+# What the dashboard pulls on every refresh.
+# Each source is fetched independently: if one fails, the others still update
+# and the last good copy of the failed one is kept.
+
+# ── National trends: World Bank Open Data (no key needed) ─────────────────────
+world_bank:
+  country: IND
+  indicators:
+    - code: AG.LND.IRIG.AG.ZS
+      label: Irrigated land
+      unit: "% of agricultural land"
+      theme: Water
+    - code: ER.H2O.FWAG.ZS
+      label: Freshwater withdrawal for agriculture
+      unit: "% of total withdrawal"
+      theme: Water
+    - code: AG.YLD.CREL.KG
+      label: Cereal yield
+      unit: "kg per hectare"
+      theme: Food
+    - code: AG.LND.AGRI.ZS
+      label: Agricultural land
+      unit: "% of land area"
+      theme: Land
+    - code: NV.AGR.TOTL.ZS
+      label: Agriculture, forestry & fishing value added
+      unit: "% of GDP"
+      theme: Livelihoods
+    - code: SL.AGR.EMPL.ZS
+      label: Employment in agriculture
+      unit: "% of total employment"
+      theme: Livelihoods
+    - code: EG.FEC.RNEW.ZS
+      label: Renewable energy consumption
+      unit: "% of final energy"
+      theme: Energy
+
+# ── Emissions: Our World in Data CO2 & GHG dataset (no key needed) ───────────
+owid:
+  url: https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv
+  iso_code: IND
+  start_year: 1990
+  series:
+    - column: total_ghg_excluding_lucf
+      label: Total GHG emissions (excl. land use)
+      unit: "MtCO2e"
+    - column: methane
+      label: Methane (all sectors)
+      unit: "MtCO2e"
+    - column: nitrous_oxide
+      label: Nitrous oxide (all sectors)
+      unit: "MtCO2e"
+
+# ── State-level data: Open Government Data platform (data.gov.in) ────────────
+# Needs a free API key from https://data.gov.in (My Account -> API key),
+# saved in the repo as the secret DATA_GOV_IN_API_KEY.
+# To add a dataset: open its page on data.gov.in, click "API", copy the
+# resource ID, then fill state_field / value_field with the column names
+# shown in the API preview. Entries with an empty resource_id are skipped.
+data_gov_in:
+  datasets:
+    - id: kusum_pumps
+      label: PM-KUSUM standalone solar pumps installed
+      unit: "pumps"
+      theme: Energy
+      resource_id: ""        # search data.gov.in for "PM-KUSUM state-wise"
+      state_field: ""
+      value_field: ""
+    - id: groundwater_extraction
+      label: Stage of groundwater extraction
+      unit: "%"
+      theme: Water
+      resource_id: ""        # search "Dynamic Ground Water Resources state-wise" (CGWB)
+      state_field: ""
+      value_field: ""
+    - id: net_irrigated_area
+      label: Net irrigated area
+      unit: "thousand ha"
+      theme: Water
+      resource_id: ""        # search "net irrigated area state-wise"
+      state_field: ""
+      value_field: ""
+    - id: agri_power
+      label: Electricity consumed by agriculture
+      unit: "GWh"
+      theme: Energy
+      resource_id: ""        # search "state-wise electricity consumption agriculture"
+      state_field: ""
+      value_field: ""
+
+# ── Results register: hand-curated, edited in data/results_register.csv ──────
+register_csv: data/results_register.csv
